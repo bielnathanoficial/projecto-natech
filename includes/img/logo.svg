@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="121px" height="155px"
+xml:space="preserve">
+<filter id="filter28" x="-0.549524" y="-0.549524" width="2.33262" height="2.3527" >
+<feComponentTransfer in="SourceGraphic">
+	<feFuncR type="linear" slope="0"/>
+	<feFuncG type="linear" slope="0"/>
+	<feFuncB type="linear" slope="0"/>
+</feComponentTransfer>
+<feGaussianBlur stdDeviation="2 2" />
+<feOffset result="22" dx="-3.53558" dy="-3.53549"/>
+<feComponentTransfer in="SourceGraphic">
+	<feFuncR type="linear" slope="0"/>
+	<feFuncG type="linear" slope="0"/>
+	<feFuncB type="linear" slope="0"/>
+</feComponentTransfer>
+<feGaussianBlur stdDeviation="2 2" />
+<feOffset result="23" dx="3.53558" dy="3.53549"/>
+<feComposite  in="22" in2="23" operator="arithmetic" k2="1" k3="-1"/>
+<feComponentTransfer result="24">
+	<feFuncR type="linear" Ue="0" intercept="0.298039"/>
+	<feFuncG type="linear" Ue="0" intercept="0.788235"/>
+	<feFuncB type="linear" Ue="0" intercept="1"/>
+	<feFuncA type="linear" xh="0" slope="1"/>
+</feComponentTransfer>
+<feComposite  in="23" in2="22" operator="arithmetic" k2="1" k3="-1"/>
+<feComponentTransfer result="25">
+	<feFuncR type="linear" Ue="0" intercept="0"/>
+	<feFuncG type="linear" Ue="0" intercept="0.356863"/>
+	<feFuncB type="linear" Ue="0" intercept="0.509804"/>
+	<feFuncA type="linear" xh="0" slope="1"/>
+</feComponentTransfer>
+<feComposite result="26"  in="24" in2="25" operator="arithmetic" k2="1" k3="1"/>
+<feComposite result="27"  in="26" in2="SourceGraphic" operator="atop"/>
+</filter>
+<g style="filter:url(#filter28);">
+<g id="PathID_7" transform="matrix(-0.876137, -4.04399, 4.02047, -0.978413, 81.6, 22.75)" opacity="1">
+<linearGradient
+id="LinearGradID_3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.00498962, 0.00987244, 0.00987244, -0.00498962, -1.35, -0.05)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#1C2D61;stop-opacity:1" />
+<stop  offset="0.478431" style="stop-color:#009FE8;stop-opacity:1" />
+<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_3) " d="M-1.4 -6.8Q2.2 -3.75 3.35 -1.4Q4.55 1.25 4.4 4.2Q4.3 7.35 2.55 8.15Q0.65 9.05 -0.95 8.55Q-2.8 8 -3.65 5.7Q-4.25 4.2 -3.9 2.85L-3.05 0.45Q-1.95 -2.95 -4.25 -8.35Q-4.55 -9 -3.65 -8.5L-1.4 -6.8" />
+</g>
+<g id="PathID_8" transform="matrix(-0.876137, -4.04399, 4.02047, -0.978413, 81.6, 22.75)" opacity="1">
+</g>
+</g>
+<filter id="filter35" x="-0.52581" y="-0.52581" width="2.23162" height="2.23162" >
+<feComponentTransfer in="SourceGraphic">
+	<feFuncR type="linear" slope="0"/>
+	<feFuncG type="linear" slope="0"/>
+	<feFuncB type="linear" slope="0"/>
+</feComponentTransfer>
+<feGaussianBlur stdDeviation="0.8 0.8" />
+<feOffset result="29" dx="6.55322" dy="4.5886"/>
+<feComponentTransfer in="SourceGraphic">
+	<feFuncR type="linear" slope="0"/>
+	<feFuncG type="linear" slope="0"/>
+	<feFuncB type="linear" slope="0"/>
+</feComponentTransfer>
+<feGaussianBlur stdDeviation="0.8 0.8" />
+<feOffset result="30" dx="-6.55322" dy="-4.5886"/>
+<feComposite  in="29" in2="30" operator="arithmetic" k2="1" k3="-1"/>
+<feComponentTransfer result="31">
+	<feFuncR type="linear" Ue="0" intercept="0.298039"/>
+	<feFuncG type="linear" Ue="0" intercept="0.788235"/>
+	<feFuncB type="linear" Ue="0" intercept="1"/>
+	<feFuncA type="linear" xh="0" slope="2"/>
+</feComponentTransfer>
+<feComposite  in="30" in2="29" operator="arithmetic" k2="1" k3="-1"/>
+<feComponentTransfer result="32">
+	<feFuncR type="linear" Ue="0" intercept="0"/>
+	<feFuncG type="linear" Ue="0" intercept="0.356863"/>
+	<feFuncB type="linear" Ue="0" intercept="0.509804"/>
+	<feFuncA type="linear" xh="0" slope="2"/>
+</feComponentTransfer>
+<feComposite result="33"  in="31" in2="32" operator="arithmetic" k2="1" k3="1"/>
+<feComposite result="34"  in="33" in2="SourceGraphic" operator="atop"/>
+</filter>
+<g style="filter:url(#filter35);">
+<g id="PathID_9" transform="matrix(2.62019, -0.463047, 0.0587926, 2.51586, 59.8, 117.65)" opacity="1">
+<linearGradient
+id="LinearGradID_4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-0.0104218, -0.0120392, -0.0120392, 0.0104218, 2.25, 3.05)" spreadMethod ="pad" x1="-819.2" y1="0" x2="819.2" y2="0" >
+<stop  offset="0" style="stop-color:#1C2D61;stop-opacity:1" />
+<stop  offset="0.478431" style="stop-color:#009FE8;stop-opacity:1" />
+<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:1" />
+</linearGradient>
+<path style="fill:url(#LinearGradID_4) " d="M5.85 -14.35Q12 -8.55 13.7 -1.6Q15.4 5.45 11.65 10.05Q9 13.3 4.4 14.15Q-0.15 14.95 -5.35 13.3L-9.1 11.05L-12.3 8Q-14.75 5.05 -14.15 2.3Q-13.55 -0.25 -10.85 -1.6Q-8.2 -3 -5.15 -2.35Q-1.75 -1.65 0.35 1.3Q5.25 8.25 9 7.5Q10.5 7.2 11.45 5.85Q12.35 4.65 12.6 3.1Q13.2 -0.9 11.95 -4.8Q10.35 -9.85 5.85 -14.35" />
+</g>
+<g id="PathID_10" transform="matrix(2.62019, -0.463047, 0.0587926, 2.51586, 59.8, 117.65)" opacity="1">
+</g>
+</g>
+<filter id="filter42" x="-0.51" y="-0.51" width="2.40479" height="2.41509" >
+<feComponentTransfer in="SourceGraphic">
+	<feFuncR type="linear" slope="0"/>
+	<feFuncG type="linear" slope="0"/>
+	<feFuncB type="linear" slope="0"/>
+</feComponentTransfer>
+<feGaussianBlur stdDeviation="0 0" />
+<feOffset result="36" dx="-24.5746" dy="-17.2073"/>
+<feComponentTransfer in="SourceGraphic">
+	<feFuncR type="linear" slope="0"/>
+	<feFuncG type="linear" slope="0"/>
+	<feFuncB type="linear" slope="0"/>
+</feComponentTransfer>
+<feGaussianBlur stdDeviation="0 0" />
+<feOffset result="37" dx="24.5746" dy="17.2073"/>
+<feComposite  in="36" in2="37" operator="arithmetic" k2="1" k3="-1"/>
+<feComponentTransfer result="38">
+	<feFuncR type="linear" Ue="0" intercept="0.345098"/>
+	<feFuncG type="linear" Ue="0" intercept="0.658824"/>
+	<feFuncB type="linear" Ue="0" intercept="0.886275"/>
+	<feFuncA type="linear" xh="0" slope="0.410156"/>
+</feComponentTransfer>
+<feComposite  in="37" in2="36" operator="arithmetic" k2="1" k3="-1"/>
+<feComponentTransfer result="39">
+	<feFuncR type="linear" Ue="0" intercept="0.0156863"/>
+	<feFuncG type="linear" Ue="0" intercept="0.113725"/>
+	<feFuncB type="linear" Ue="0" intercept="0.188235"/>
+	<feFuncA type="linear" xh="0" slope="0.410156"/>
+</feComponentTransfer>
+<feComposite result="40"  in="38" in2="39" operator="arithmetic" k2="1" k3="1"/>
+<feComposite result="41"  in="40" in2="SourceGraphic" operator="atop"/>
+</filter>
+<g style="filter:url(#filter42);">
+<g id="PathID_11" transform="matrix(0.0983562, -2.05037, 1.8843, 0.293653, 60.05, 75.65)" opacity="1">
+<path style="fill:#0E5D96;fill-opacity:1" d="M9.6 -26.1Q6.2 -26.1 2.95 -24.4Q-0.25 -22.7 -1.6 -20.1Q-3.15 -17.3 -1.7 -14.5Q0.2 -10.9 3.2 -7.4L8.45 -1.65Q11.65 1.7 13.25 4.1Q15.65 7.5 16.8 11.3Q19.45 20 14.6 25.75Q10.2 30.95 2 31.85L-7.5 31.4Q-11.75 30.65 -15.45 29L-7.1 28.6Q-3.4 27.6 -0.85 25.45Q1.7 23.25 2.4 20.5Q3.15 17.65 1.65 14.8Q-0.25 11.2 -3.2 7.55L-8.55 1.6Q-11.75 -1.85 -13.35 -4.25Q-15.65 -7.5 -16.8 -11.05Q-19.45 -19.65 -14.55 -25.5Q-10.2 -30.7 -1.95 -31.55Q6.4 -33.15 12.7 -27.95Q14.65 -26.3 15.7 -24.55L16.1 -23.7L15.75 -23.75Q13.35 -26.05 9.6 -26.1" />
+</g>
+<g id="PathID_12" transform="matrix(0.0983562, -2.05037, 1.8843, 0.293653, 60.05, 75.65)" opacity="1">
+</g>
+</g>
+</svg>
