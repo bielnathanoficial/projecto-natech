@@ -5,7 +5,7 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/projecto/home/');
+	header('Location: '.$uri.'/projecto-natech/home/');
 	exit;
 ?>
 Something is wrong with redirection page :-(
