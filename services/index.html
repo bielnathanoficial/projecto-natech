@@ -1,0 +1,295 @@
+
+
+<!-- 
+  
+  Author: Gabriel Conde Tati
+Year:2022
+Laguange: Portuguese
+
+This page contain authoral rights: Alvaro Trigo Lopez- FullPage JS
+
+-->
+
+
+
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Serviços- Nathan Technologies Inc</title>
+	<meta name="Author" content="Nathan Technologies- Above of the technology" />
+    <meta name="description" content="Serviços prestados pela Nathan Technologies " />
+    <meta name="keywords"  content="Startup Iot,smart devices,electronic startup,screen,Internet of things, cidades inteligentes" />
+	<meta name="Resource-type" content="Document" />
+
+   <link rel="stylesheet" href="../includes/css/snoob header.css">
+   <link href="../includes/css/bootstrap.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+   <link href="../includes/css/index.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="../includes/css/fullpage.css" />
+   <link rel="stylesheet" type="text/css" href="../includes/css/fullpage.min.css" />
+	<link rel="stylesheet" type="text/css" href="../includes/css/examples.css" />
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+		overflow: hidden;
+	}
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* no caso do video não preencher a pagina inteira*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 43%;
+
+		/*
+		* Preventing flicker on some browsers
+		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
+		*/
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section0{
+		overflow: hidden;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+
+	/* Ocultando os controladores do video
+	* Fonte: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+	* --------------------------------------- */
+	video::-webkit-media-controls {
+	  display:none !important;
+	}
+
+	</style>
+
+
+</head>
+<body>
+  <div class="bs-example">
+   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+       <a href="../index.php" class="navbar-brand">
+       <img src="../includes/img/logo2.svg" height="28" alt="logo">
+       </a>
+       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+
+     <div class="collapse navbar-collapse text-center" id="navbarCollapse">
+       <div class="navbar-nav">
+               <a href="../index.php/" class="nav-item nav-link active">Inicio</a>
+               <a href="#" class="nav-item nav-link">Blog</a>
+               
+           <a href="../partners/" class="nav-item nav-link ">Parceiros</a>
+           
+          
+          
+       <div class="dropdown lin align-bottom">
+              <link rel="stylesheet" href="../includes/css/dropdown-button.css"/>
+              
+          <button class="dropbtn nav-item nav-link">Conheça-nos
+     <i class="offset-1"></i>
+   </button>
+
+   <div class="dropdown-content">
+           
+     <a href="../services/" class="nav-item nav-link">Serviços</a>
+     
+     <a href="../about-us/index2.php" class="nav-item nav-link">Nossa Equipe </a>
+     <a href="../about-us/" class="nav-item nav-link ">Quem nós Somos</a>
+     <a href="../contacts/" class="nav-item nav-link">Contactos</a>
+     </div>
+        </div>
+       
+           <a href="../bugs/" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+       </div>
+       
+       
+       <div class="navbar-nav ml-auto">
+           <a href="../academy/index.html"><img src="../includes/img/n academy.png" alt="nCLOUD" width="107" height="64" class="img-fluid"></a>
+          <a href="#"><img src="../includes/img/n cloud.png" alt="nCLOUD" width="87" height="52" class="img-fluid"></a>
+               <a href="../multi_login/index.php" class="nav-item nav-link">Entrar
+           </a>
+           </div>
+           
+       </div>
+      </div>
+       </div>
+   </nav>
+</div>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<video id="myVideo" loop muted data-autoplay>
+			<source src="../includes/video/drone.mp4" type="video/mp4">
+			<source src="../includes/video/drone.webm" type="video/webm">
+		</video>
+		<div class="layer">
+			<h1>Estamos criando o futuro</h1>
+		</div>
+	</div>
+	<div class="section" id="section1">
+	    <div class="slide" id="slide1"><h1>Energias Renováveis</h1></div>
+	    <div class="slide" id="slide2"><h1>Casas Inteligentes</h1></div>
+		<div class="slide" id="slide2"><h1>Cidades & Empresas Inteligentes</h1></div>
+		<div class="slide" id="slide2"><h1>Sistemas e Dispositivos Inteligentes</h1></div>
+		<div class="slide" id="slide2"><h1>Redes IoT</h1></div>
+	</div>
+	<div class="section" id="section2"><h1>Faça Parte Dessa Historia <br />E Solicite Seu Projecto Agora Mesmo</h1></div>
+
+	
+</div>
+
+<script type="text/javascript" src="../includes/js/fullpage.js"></script>
+<script type="text/javascript" src="../includes/js/examples.js"></script>
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: true,
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE']
+    });
+</script>
+
+</body>
+
+<footer>
+	<div id="footer-block">
+	  <newsletter><div class="newsletter-form">
+		<h4 id="newsletter-input-label">Newsletter</h4>
+		<div class="subscribe-wrapper">
+			<div id="newsletter-email-error" class="upper-error-notif">Por favor, insira seu email</div>
+			<div class="input-wrapper">
+				<input id="newsletter-email" aria-labelledby="newsletter-input-label" type="email" name="email" class="email" placeholder="Introduza seu email para subscrever">
+				<button id="subscribe-btn" aria-label="Subscribe" class="button">Subscrever</button>
+			</div>
+		</div>
+	</div>
+	</newsletter>
+	
+	  <section class="footer-links-wrapper">
+		<ul id="footer-list">
+		  <li>
+			<a href="#">
+			  <span class="text">Termos e Condições</span>
+			</a>
+		  </li>
+		  <li>
+			<a href="#">
+			  <span class="text">Politicas e Privacidade</span>
+			</a>
+		  </li>
+		
+		  <li>
+			<a href="#">
+			  <span class="text">Contacte-nos</span>
+			</a>
+		  </li>
+		  <li>
+			<a href="#">
+			  <span class="text">Conheça-nos</span>
+			</a>
+		  </li>
+		 
+  
+  <!-- footer-lista -->
+  
+		</ul>
+		<p></p><div class="footer-note">
+		  <p>
+			<a href="#">
+			  <span class="text">
+				© <span id="current-year">2022</span> Nathan Technologies, Inc
+			  </span>
+			</a>
+		  </p>
+		</div>
+	  </section>
+  
+  
+	  <ul class="social-btn-list">
+		<li>
+		  <a href="https://www.facebook.com/nathantechnologies" target="_blank" id="facebook" class="facebook" rel="noopener">
+			<img src="../includes/img/icon-facebook.svg" alt="facebook">
+			<p class="follow-us">Siga.nos no  Facebook</p>
+		  </a>
+		</li>
+		<li>
+		  <a href="https://twitter.com/nathantechnolog" target="_blank" id="twitter" class="twitter" rel="noopener">
+			<img src="../includes/img/icon-twitter.svg" alt="twitter">
+			<p class="follow-us">Siga-nos no Twitter</p>
+		  </a>
+		</li>
+		<li>
+		  <a href="https://www.instagram.com/nathantechnologies/" target="_blank" id="instagram" class="instagram" rel="noopener">
+			<img src="../includes/img/icon-instagram.svg" alt="instagram">
+			<p class="follow-us">siga-nos no Instagram</p>
+		  </a>
+		</li>
+		<li>
+		  <a href="https://github.com/natech-team/" target="_blank" id="github" class="github" rel="noopener">
+			<img src="../includes/img/icon-github.svg" alt="github">
+			<p class="follow-us">Nathan Technologies no GitHub</p>
+		  </a>
+		</li>
+	  
+		<li>
+		  <a href="#" target="_blank" id="youtube" class="youtube" rel="noopener">
+			<img src="../includes/img/icon-youtube.svg" alt="youtube">
+			<p class="follow-us">Siga-nos no YouTube</p>
+		  </a>
+		</li>
+	  </ul>
+	<script type="text/javascript" src="../includes/js/button-top.js"></script>
+	
+	  <button onclick="topFunction()" id="myBtn" class="go-top-footer-btn" aria-label="Scroll Top">
+		<span class="arrow-1"></span>
+		<span class="arrow-2"></span>
+		<span class="arrow-3"></span>
+	  </button>
+  
+  </footer>
+</html>
